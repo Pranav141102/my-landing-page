@@ -34,7 +34,7 @@ const reviews = [
       <div className="text-gray-600 text-left">
         <p>
           “BrandNav has been extremely useful in helping us find high quality
-          leads for our agency. It’s the best tool I’ve used so far for
+          leads for our agency. Its the best tool Ive used so far for
           scrapping leads. Would definitely recommend BrandNav to businesses
           looking for a lead gen tool.”
         </p>
@@ -48,7 +48,7 @@ const reviews = [
     rating: 5,
     quote: (
       <span className="text-[#2F327D] text-left font-bold">
-        “Highly recommended if you’re looking to get leads!”
+        “Highly recommended if youre looking to get leads!”
       </span>
     ),
     feedback: (
