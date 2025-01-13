@@ -54,7 +54,7 @@ const reviews = [
     feedback: (
       <div className="text-gray-600 text-left">
         <p>
-          “Best tool I've used so far for scrapping leads. Helps me scrape my
+          “Best tool Ive used so far for scrapping leads. Helps me scrape my
           target audience data with ease. Low effort, amazing response rates.
           Saves a lot of time and manual work.”
         </p>
