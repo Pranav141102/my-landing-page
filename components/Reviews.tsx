@@ -71,7 +71,7 @@ const Reviews = () => {
       <div className="bg-[#E1F1FE] py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-[#2F327D] mb-4">
-            Don’t just take our word for it
+            <p>Don&apos;t just take our word for it</p>
           </h2>
           <p className="text-lg text-[#2F327D] font-bold mb-12">
             Excellent <span className="text-yellow-400">★★★★★</span> 4.8/5 G2
