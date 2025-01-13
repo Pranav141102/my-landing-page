@@ -1,6 +1,6 @@
 import React, { JSX } from "react";
 
-interface Review {
+interface Reviews {
   name: JSX.Element;
   title: string;
   image: string;
