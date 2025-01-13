@@ -20,7 +20,6 @@ const PricingSection = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-20">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center max-w-[1400px] mx-auto">
-          {/* Card Section */}
           <div className="max-w-xl mx-auto lg:max-w-none">
             <div className="bg-white rounded-3xl p-8 text-navy-900">
               <div className="flex items-center justify-center mb-5">
