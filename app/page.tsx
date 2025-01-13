@@ -1,4 +1,3 @@
-import Hero from '@/components/Hero';
 //import WeaponSection from "@/components/WeaponSection";
 //import LeadsDatabase from "@/components/LeadsDatabase";
 import PricingSection from "@/components/PricingSection";
@@ -218,7 +217,6 @@ export default function Home() {
 
         {/* Full-width sections */}
         <div className="w-full">
-          <Hero />
           <PricingSection />
           <WhyBrandNav />
           <PinpointCustomer />

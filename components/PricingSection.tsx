@@ -32,7 +32,7 @@ const PricingSection = () => {
                   Grab free leads
                 </button>
                 <div className="flex items-center justify-center text-sm text-[#595B97] gap-2">
-                  <img src="./credit.svg" alt="credit card" />
+                  <img src="/credit.svg" alt="credit card" />
                   <span className="text-[#595B97]">No credit card required</span>
                   <span className="text-[#595B97] font-bold">|</span>
                   <div className="flex items-center">
