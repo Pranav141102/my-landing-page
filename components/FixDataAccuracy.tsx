@@ -4,7 +4,7 @@ const FixDataAccuracy = () => {
       icon: <img src="/team.svg" alt="Team collaboration icon" />,
       title: "Sales & Marketing Teams",
       description:
-        "Sales and marketing teams use BrandNav to efficiently locate and verify prospect contact information, identify key decision-makers, and streamline workflows.",
+        "Sales and marketing teams are using BrandNav to efficiently locate and verify prospect contact information and identify key decision-makers.",
     },
     {
       icon: <img src="/pc.svg" alt="Software and IT icon" />,
@@ -42,7 +42,7 @@ const FixDataAccuracy = () => {
     <section className="w-full py-16 bg-[#FAFBFF]">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
-          <h2 className="text-xl sm:text-2xl font-extrabold text-[#2F327D]">
+          <h2 className="text-xl sm:text-4xl font-bold text-[#2F327D]">
             Fix data accuracy problems
             <br />
             with BrandNav
@@ -71,10 +71,10 @@ const FixDataAccuracy = () => {
 
         {/* Who is using section */}
         <div className="mt-20 text-center">
-          <h2 className="text-xl sm:text-2xl font-bold text-[#1E1B4B] mb-2">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#2F327D] mb-2">
             Who is using BrandNav?
           </h2>
-          <p className="text-[#595B97] text-sm mb-10">
+          <p className="text-[#595B97] text-xl mb-10">
             BrandNav has become an irreplaceable tool for businesses.
           </p>
 
@@ -87,7 +87,7 @@ const FixDataAccuracy = () => {
                 <h3 className="text-[#2F327D] text-lg font-bold mb-2">
                   {user.title}
                 </h3>
-                <p className="text-[#595B97] text-sm font-bold leading-relaxed">
+                <p className="text-[#595B97] text-sm leading-relaxed mx-11">
                   {user.description}
                 </p>
               </div>

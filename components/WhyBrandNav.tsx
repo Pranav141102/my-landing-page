@@ -3,16 +3,16 @@ const WhyBrandNav = () => {
     <section className="w-full py-12 sm:py-20 bg-[#999999 ]">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-[40px] font-bold text-[#1E1B4B] mb-4">
+          <h2 className="text-3xl sm:text-[40px] font-bold text-[#2F327D] mb-4">
             Why should you use BrandNav?
           </h2>
-          <p className="text-base sm:text-lg text-[#6B7280]">
+          <p className="text-base sm:text-lg text-[#595B97]">
             Optimize your workflow for faster results and higher revenue
           </p>
         </div>
 
         {/* First Feature - Enrich CSV (Image on left) */}
-        <div className="w-full lg:grid lg:grid-cols-2 lg:gap-5 items-center mb-20 sm:mb-32">
+        <div className="w-full lg:grid lg:grid-cols-2 lg:gap-5 items-center mb-10 sm:mb-12">
           {/* Left side - Image */}
           <div className="relative w-full mb-8  lg:ml-16">
             <div className="relative w-full">
@@ -50,9 +50,9 @@ const WhyBrandNav = () => {
         </div>
 
         {/* Second Feature - Fresh Data Updates (Image on right) */}
-        <div className="w-full lg:grid lg:grid-cols-2 lg:gap-8 items-center mb-20 sm:mb-32">
+        <div className="w-full lg:grid lg:grid-cols-2  items-center mb-10 sm:mb-22">
   {/* Left side - Content */}
-  <div className="w-full mb-8 lg:ml-16"> {/* Reduced `lg:ml-16` to `lg:ml-12` */}
+  <div className="w-full mb-8 lg:ml-10">
     <div className="flex flex-col items-start gap-4">
       <div className="flex-shrink-0">
         <div className="rounded-xl flex items-center">
@@ -74,7 +74,7 @@ const WhyBrandNav = () => {
 
   {/* Right side - Image */}
   <div className="relative w-full">
-    <div className="absolute -right-12 -top-12 w-[450px] h-[450px] bg-[#EEF2FF] rounded-full opacity-50 blur-3xl" /> {/* Adjusted positioning */}
+    <div className="absolute -right-8 -top-12 w-[450px] h-[450px] bg-[#EEF2FF] rounded-full opacity-50 blur-3xl" /> {/* Adjusted positioning */}
     <div className="absolute w-[280px] h-[280px] bg-blue-50 rounded-full opacity-50 blur-3xl" />
     <div className="relative z-10 w-full">
       <img
@@ -85,6 +85,7 @@ const WhyBrandNav = () => {
     </div>
   </div>
 </div>
+
 
 
         {/* Third Feature - Advanced Search (Image on left) */}

@@ -18,9 +18,9 @@ const PricingSection = () => {
         backgroundRepeat: "no-repeat", // Ensures the image doesn't tile
       }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-20">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center max-w-[1400px] mx-auto">
-          <div className="max-w-xl mx-auto lg:max-w-none">
+      <div className="container mx-auto  sm:px-6 lg:px-20">
+        <div className="lg:grid lg:grid-cols-2 items-center max-w-[1400px] mx-auto">
+          <div className="max-w-xl mx-auto text-5xl sm:text-6xl lg:max-w-none">
             <div className="bg-white rounded-3xl p-8 text-navy-900">
               <div className="flex items-center justify-center mb-5">
                 <img src="/gift.png" alt="Gift" className="w-fi h-fit" />
@@ -46,9 +46,9 @@ const PricingSection = () => {
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <img
-                      src="/checkmark.jpg" // Replace with the correct path to your image in the public folder
+                      src="/checkmark.jpg" 
                       alt="Checkmark"
-                      className="w-6 h-6 flex-shrink-0 " // Adjust the size to match the uploaded example
+                      className="w-6 h-6 flex-shrink-0 " 
                     />
                     <span className="text-[#141997] font-bold text-base">{feature}</span>
                   </div>
@@ -73,13 +73,13 @@ const PricingSection = () => {
 
           {/* Text Section */}
           <div className="text-center mb-12 lg:mb-0 lg:mr-9">
-            <h2 className="text-5xl sm:text-4xl font-bold mb-6 text-white">
+            <h2 className="text-5xl sm:text-6xl font-bold mb-6 text-white">
               Not convinced yet?
             </h2>
-            <div className="text-4xl sm:text-4xl font-bold">
+            <div className="text-4xl sm:text-6xl font-bold">
               Take it for a <span className="text-[#0D6EFD]">FREE</span> spin
             </div>
-            <div className="text-3xl mt-4 text-gray-300">
+            <div className="text-5xl sm:text-6xl mt-4 text-[#FFFFFF]">
               before committing
             </div>
           </div>

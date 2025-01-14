@@ -62,42 +62,61 @@ const PinpointCustomer = () => {
 
         {/* Screener Attributes */}
         <div className="mb-20">
-          <h3 className="text-[#0D6EFD] text-2xl font-bold text-center mb-12">
-            Screener attributes
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
-            {screenerAttributes.map((attribute, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center text-center "
-              >
-                <div className="w-16 h-16  rounded-2xl flex items-center justify-center ">
-                  {attribute.icon}
-                </div>
-                <span className="text-[#2F327D] font-bold whitespace-pre-line">{attribute.title}</span>
-              </div>
-            ))}
-          </div>
+  <h3 className="text-[#0D6EFD] text-2xl font-bold text-center mb-12">
+    Screener attributes
+  </h3>
+  <div className="grid grid-cols-4">
+    {/* First row with 4 icons */}
+    {screenerAttributes.slice(0, 4).map((attribute, index) => (
+      <div
+        key={index}
+        className="flex flex-col items-center text-center"
+      >
+        <div className="w-25 h-25 rounded-xl flex items-center justify-center text-5xl">
+          {attribute.icon}
         </div>
-
-        {/* Enricher Attributes */}
+        <span className="text-[#2F327D] font-bold whitespace-pre-line text-xl">
+          {attribute.title}
+        </span>
+      </div>
+    ))}
+  </div>
+  {/* Second row with 3 icons */}
+  <div className="grid grid-cols-3 mt-8">
+    {screenerAttributes.slice(4).map((attribute, index) => (
+      <div
+        key={index}
+        className="flex flex-col items-center text-center"
+      >
+        <div className="w-25 h-25 rounded-xl flex items-center justify-center text-5xl">
+          {attribute.icon}
+        </div>
+        <span className="text-[#2F327D] font-bold whitespace-pre-line text-xl">
+          {attribute.title}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
+        <br />
         <div>
           <h3 className="text-xl sm:text-2xl font-bold text-[#007DF2] text-center mb-10">
             Enricher attributes
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 ">
-            {enricherAttributes.map((attribute, index) => (
-              <div
-                key={index}
-                className="flex flex-col items-center text-center space-y-0 "
-              >
-                <div className="w-16 h-16  rounded-xl flex items-center justify-center text-3xl ">
-                  {attribute.icon}
-                </div>
-                <span className="text-[#2F327D] font-bold">{attribute.title}</span>
-              </div>
-            ))}
-          </div>
+  {enricherAttributes.map((attribute, index) => (
+    <div
+      key={index}
+      className="flex flex-col items-center text-center space-y-0"
+    >
+      <div className="w-25 h-25 rounded-xl flex items-center justify-center text-5xl">
+        {attribute.icon}
+      </div>
+      <span className="text-[#2F327D] font-bold text-xl">{attribute.title}</span>
+    </div>
+  ))}
+</div>
+
         </div><br />
       </div>
     </section>
